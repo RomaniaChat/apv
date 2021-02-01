@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 1,
   "functions": {
     "api/node-proxy.js": {
-      "memory": 1024
+      "memory": 512
     }
   },
   "routes": [
