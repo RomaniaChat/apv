@@ -31,7 +31,7 @@ const server = http.createServer(function(req, res) {
   proxy.on('proxyRes', function(proxyRes, req, res) {
     // console.log('Raw [target] response', JSON.stringify(proxyRes.headers, true, 2));
     
-    proxyRes.headers['x-proxy'] = "simple-basic-http-auth-proxy-vercel";
+    proxyRes.headers['x-proxy'] = "auth-proxy-vercel";
     
     // console.log('Updated [proxy] response', JSON.stringify(proxyRes.headers, true, 2));
     
